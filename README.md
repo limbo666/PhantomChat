@@ -2,11 +2,25 @@
 
 PhantomChat is a portable, completely offline, and anonymous messaging system built for ESP32 microcontrollers. It requires no internet, no cellular service, and no external infrastructure. 
 
-By utilizing the ESP32 as a standalone Wi-Fi Access Point and a DNS-driven Captive Portal, PhantomChat creates an instant local chat room. Anyone who connects to the device's Wi-Fi network is automatically greeted with a modern, responsive web app directly on their screen—no app installation required.
+By utilizing the ESP32 as a standalone Wi-Fi Access Point and a DNS-driven Captive Portal, PhantomChat creates an instant local chat room. Anyone who connects to the device's Wi-Fi network is automatically greeted with a modern, responsive web app directly on their screen   
+NO APP INSTALLATION REQUIRED.
 
 | | | |
 |:---:|:---:|:---:|
 | <img width="269" height="568" alt="1 (Phone)" src="https://github.com/user-attachments/assets/01e2bbce-139a-4b54-a99f-0e80321be704" /> | <img width="269" height="568" alt="2 (Phone)" src="https://github.com/user-attachments/assets/e1bc0628-7db2-4162-9a92-a8bd861d631e" /> | <img width="269" height="568" alt="3 (Phone)" src="https://github.com/user-attachments/assets/2102c426-baf9-4fde-92b6-b0ae12d8a199" /> |
+
+
+
+
+## Real-World Applications
+
+PhantomChat is designed for situations where traditional networks are unavailable, untrusted, or overloaded:
+
+* **Off-Grid & Camping:** Communicate with your group around a large campsite or at a festival where cell towers are overloaded or nonexistent.
+* **Airplanes & Cruises:** Devices can connect to the local ESP32 network while maintaining airplane mode, allowing families or colleagues to chat across the cabin without purchasing expensive satellite Wi-Fi.
+* **Classrooms & Offices:** Pass messages silently in closed-room environments.
+* **Conventions & Crowded Events:** Bypass congested cellular networks by maintaining a localized, private mesh for your team.
+* **Disaster Recovery:** Instant pop-up communication in areas where infrastructure has been damaged by severe weather or power outages.
 
 
 ## Key Features
@@ -27,15 +41,7 @@ By utilizing the ESP32 as a standalone Wi-Fi Access Point and a DNS-driven Capti
 * **No Infrastructure Needed:** It operates completely off-grid. If you have a battery pack and the ESP32, you have a functioning communication network.
 * **Cross-Platform Compatibility:** Because the interface relies on standard HTML, CSS, and JavaScript, it works on any device with a web browser.
 
-## Real-World Applications
 
-PhantomChat is designed for situations where traditional networks are unavailable, untrusted, or overloaded:
-
-* **Off-Grid & Camping:** Communicate with your group around a large campsite or at a festival where cell towers are overloaded or nonexistent.
-* **Airplanes & Cruises:** Devices can connect to the local ESP32 network while maintaining airplane mode, allowing families or colleagues to chat across the cabin without purchasing expensive satellite Wi-Fi.
-* **Classrooms & Offices:** Pass messages silently in closed-room environments.
-* **Conventions & Crowded Events:** Bypass congested cellular networks by maintaining a localized, private mesh for your team.
-* **Disaster Recovery:** Instant pop-up communication in areas where infrastructure has been damaged by severe weather or power outages.
 
 ## Hardware Compatibility
 
@@ -78,3 +84,7 @@ If you are flashing over an older version of PhantomChat, ensure you tell your s
 ## Disclaimer
 
 This is a local, ad-hoc communication tool. Direct messages are filtered client-side for speed and simplicity. It is not intended for the transmission of highly sensitive or classified data against persistent, local network sniffers. Use responsibly.
+
+## License
+[Apache 2.0](https://github.com/limbo666/PhantomChat/blob/main/LICENSE)
+ 
